@@ -1,0 +1,25 @@
+{
+  "manifest_version": 2,
+  "name": "Twitter Icon Rotator",
+  "short_name": "TwiIconRotator",
+  "version": "1.2",
+  "description": "This Add-on makes twitter icons rotate automatically",
+  "permissions": [
+    "storage",
+    "unlimitedStorage",
+    "tabs"
+  ],
+  "background": {
+    "scripts": ["background/js/main.js"]
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://twitter.com/*"],
+      "css": ["content_scripts/main.css"],
+      "js": ["content_scripts/main.js"]
+    }
+  ],
+  "browser_action": {
+    "default_popup": "default_popup/index.html"
+  }
+}

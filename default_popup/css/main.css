@@ -1,0 +1,17 @@
+body {
+  padding: 10px;
+}
+#input-rps {
+  width: 100px;
+}
+.ui.label {
+  background: none;
+}
+span.bold {
+  color: red;
+  font-weight: bold;
+}
+#button-apply {
+  margin: 10px 0;
+  width: 100%;
+}
