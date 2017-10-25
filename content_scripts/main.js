@@ -9,7 +9,7 @@ var onPageLoad = function() {
     }
 
     var style = document.createElement('style');
-    style.innerText += '.ProfileAvatar-image, .js-action-profile-avatar, .avatar, .Avatar {';
+    style.innerText += '.ProfileAvatar-image, .js-action-profile-avatar, .avatar, .Avatar, .MomentUserByline-avatar {';
     style.innerText += '    animation: spin ' + 1.0 / rps + 's linear infinite;';
     style.innerText += '}';
 
