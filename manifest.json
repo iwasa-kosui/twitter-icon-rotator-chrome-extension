@@ -14,7 +14,7 @@
   },
   "content_scripts": [
     {
-      "matches": ["https://twitter.com/*"],
+      "matches": ["https://twitter.com/*", "https://tweetdeck.twitter.com/*"],
       "css": ["content_scripts/main.css"],
       "js": ["content_scripts/main.js"]
     }
