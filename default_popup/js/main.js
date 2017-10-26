@@ -15,14 +15,14 @@ $(document).ready(function(){
     });
   };
   onPageLoad();
-  
+
   $('#input-rps').on('change', function() {
     chrome.storage.local.set({'rps': $('#input-rps').val()}, function () {});
   });
 
   $('#button-apply').on('click', function() {
     chrome.storage.local.set({'rps': $('#input-rps').val()}, function () {});
-    chrome.tabs.query({url: "*://twitter.com/*"}, function (tabs) {
+    chrome.tabs.query({url: "*://*.twitter.com/*"}, function (tabs) {
       tabs.forEach(function(tab){
          chrome.tabs.reload(tab.id);
       });
