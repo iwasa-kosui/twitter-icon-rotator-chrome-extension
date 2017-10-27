@@ -10,15 +10,25 @@
     <script src="js/main.js"></script>
   </head>
   <body>
-    <h1 class="ui header">Change rotation speed</h1>
-    <div class="ui labeled input">
-      <input id="input-rps" type="number">
-      <div class="ui label">
-        rotate / s
+    <h1 class="ui header">
+      Change rotation speed
+    </h1>
+    <div class="container">
+      <div class="ui labeled input">
+        <input id="input-rps" type="number">
+        <div class="ui label">
+          rotate / s
+        </div>
       </div>
-    </div>
-    <div id="button-apply" class="ui button">
-      適用する(apply)
+      <div class="ui toggle checkbox">
+        <input type="checkbox" id="checkbox-inversed" name="inversed" />
+        <label for="inversed">
+          回転を逆にする(in reverse)
+        </label>
+      </div>
+      <div id="button-apply" class="ui button">
+        適用する(apply)
+      </div>
     </div>
   </body>
 </html>
