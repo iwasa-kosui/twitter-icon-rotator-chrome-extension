@@ -2,13 +2,6 @@
 This is a chrome extension to make avatars on twitter.com rotate!
 It works not only on twitter.com, but also on TweetDeck.
 
-# Demo
-https://pic.twitter.com/43awWbYSN8
-
-# Install stable version
-
-Get it on https://chrome.google.com/webstore/detail/twitter-icon-rotator/khkdnpcopeccjcnpmlfmnjmfnfhfnpgh
-
 # Install beta version
 
 ## 1. Clone this repository   
