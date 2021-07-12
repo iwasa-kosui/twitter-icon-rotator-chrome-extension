@@ -10,8 +10,8 @@ Hit below command on your shell
 git clone https://github.com/KilledByNLP/twitter-icon-rotator-chrome-extension
 ```
 
-## 2. Go browser configure page of your extension
-Go ![chrome://extensions](chrome://extensions) and click the button
+## 2. Open browser configure page of your extension
+Open [chrome://extensions](chrome://extensions) and click the button
 ![https://imgur.com/SM3lVHz](https://imgur.com/SM3lVHz.png)
 
 # TODOs
@@ -19,4 +19,4 @@ Go ![chrome://extensions](chrome://extensions) and click the button
 * Changable rotation axis
 
 # References
-![Official Google Chrome's Document](https://developer.chrome.com/extensions/) helps me
+[Official Google Chrome's Document](https://developer.chrome.com/extensions/) helps me
