@@ -7,7 +7,7 @@ It works not only on twitter.com, but also on TweetDeck.
 ## 1. Clone this repository   
 Hit below command on your shell
 ```
-git clone https://github.com/KilledByNLP/twitter-icon-rotator-chrome-extension
+git clone https://github.com/iwasa-kosui/twitter-icon-rotator-chrome-extension
 ```
 
 ## 2. Open browser configure page of your extension
